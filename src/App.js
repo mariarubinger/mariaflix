@@ -12,7 +12,7 @@ function App() {
 
       <BannerMain 
       videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-      videoDescription={"Desenvolvendo e aprendendo React na prática! Seja bem-vindo a ViniFlix, conteúdos diversos para seu gosto em tecnologia, game, e esportes!"}
+      videoDescription={"Seja bem-vinda ao MariaFlix, conteúdos para você que está iniciando na Programação!"}
       url={dadosIniciais.categorias[0].videos[0].url}/>
       
       <Carousel
