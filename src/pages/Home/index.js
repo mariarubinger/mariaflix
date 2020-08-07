@@ -22,22 +22,31 @@ function Home() {
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
-     
-      {dadosIniciais.length >= 1 && (
-        <>
-       
-          <BannerMain
-            videoTitle={dadosIniciais[0].videos[0].titulo}
-            url={dadosIniciais[0].videos[0].url}
-            videoDescription="O que é Front-end?"
-          />
+ 
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription="O que é front-end?"
+              />
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
 
+        return (
           <Carousel
-            ignoreFirstVideo
-            category={dadosIniciais[0]}
+            key={categoria.id}
+            category={categoria}
           />
-        </>
-      )}
+        );
+      })}
     </PageDefault>
   );
 }
