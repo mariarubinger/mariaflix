@@ -1,8 +1,8 @@
 {
     "categorias": [
       {
-        "titulo": "Músicas",
-        "link": "https://www.alura.com.br/formacao-front-end",
+        "titulo": "Front End",
+        "link": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
         "cor": "#6BD1FF",
         "link_extra": {
           "text": "Formação de Front End na Alura",
