@@ -1,4 +1,6 @@
-## MariaFlix: videos platform for programming students.
+## MariaFlix
+
+Videos platform for programming students.
 
 ## About
 
