@@ -2,11 +2,10 @@
 
 Videos platform for programming students.
 
+
 ## About
 
 This project was bootstrapped with Create React App.
-
-## Preview Desktop
 
 
 ## Cloning project
