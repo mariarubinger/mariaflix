@@ -20,7 +20,7 @@ This project was bootstrapped with Create React App.
   ```
 
 ## Setup
-nmp i && npm run dev
+npm i && npm run dev
 
 
 http://localhost:3000
