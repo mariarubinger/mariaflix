@@ -30,7 +30,7 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription="O que é front-end?"
+                videoDescription=""
               />
               <Carousel
                 ignoreFirstVideo
